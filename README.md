@@ -3,7 +3,13 @@ simulation for a device controller interacting with a circular queue, which is u
 
 ## Compile and Run
 compile: 
-`make`
+```
+nikababtsov@LAPTOP-VGHR5LTP:/mnt/c/Users/Nika/Breadcrumbsdevice_controller_simulator$ make
+gcc -c echo-driver.c
+gcc -c device-controller.h
+gcc echo-driver.o -o echo-driver -lm
+```
+
 run:
 input the number of bytes to be allocated for the circular queue (in this case, 8)
 ```
