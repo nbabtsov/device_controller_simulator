@@ -4,7 +4,7 @@ simulation for a device controller interacting with a circular queue, which is u
 ## Compile and Run
 compile: 
 ```
-nikababtsov@LAPTOP-VGHR5LTP:/mnt/c/Users/Nika/Breadcrumbsdevice_controller_simulator$ make
+nikababtsov@LAPTOP-VGHR5LTP:/mnt/c/Users/Nika/device_controller_simulator$ make
 gcc -c echo-driver.c
 gcc -c device-controller.h
 gcc echo-driver.o -o echo-driver -lm
@@ -13,7 +13,7 @@ gcc echo-driver.o -o echo-driver -lm
 run:
 input the number of bytes to be allocated for the circular queue (in this case, 8)
 ```
-nikababtsov@LAPTOP-VGHR5LTP:/mnt/c/Users/Nika/Breadcrumbsdevice_controller_simulator$ ./echo-driver 8
+nikababtsov@LAPTOP-VGHR5LTP:/mnt/c/Users/Nika/device_controller_simulator$ ./echo-driver 8
 Hello, World!
 Hello, World!
 Hello, WodH, d!
