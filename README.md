@@ -1,4 +1,4 @@
-# device_controller_simulator
+# device_controller_simulator (ISU CS352 - Operating Systems, 2020)
 A program which simulates a device controller interacting with a circular queue, which is used to buffer and manage characters received from or sent to a device controller
 
 ## Compile and Run
